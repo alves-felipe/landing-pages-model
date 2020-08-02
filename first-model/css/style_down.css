@@ -1,0 +1,44 @@
+/*----------mid-box----------------
+------------second section--------*/
+
+.mid-box {
+    width: 220px;
+    height: 250px;
+    margin: 10px;
+
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-box span {
+    margin: 10px auto 0;
+    font-size: 50px;
+}
+
+.mid-box h3 {
+    margin: 5px;
+
+    text-align: center;
+}
+
+.mid-box p {
+    margin: 0 10px;
+
+    text-align: center;
+}
+
+/*----------image-credits-------*/
+.credits {
+    padding: 10px;
+
+    text-align: right;
+    color: #fff;
+}
+.credits a {
+    margin: 0 0 50px auto;
+
+    color: #fff;
+    text-decoration: none;
+}
