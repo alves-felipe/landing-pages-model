@@ -22,15 +22,15 @@
                 <form>
                     <div>
                     <span class="material-icons">account_circle</span>
-                    <input type="text" placeholder="Name"/>
+                    <input type="text" id="nameInput" placeholder="Name"/>
                     </div>
                     <!---------------------------------------->
                     <div>
                     <span class="material-icons">email</span>
-                    <input type="text" placeholder="Email"/>
+                    <input type="text" id="emailInput" placeholder="Email"/>
                     </div>
                     <!---------------------------------------->
-                    <input type="submit" id="b-form" value="Send"/>
+                    <input type="button" id="b-form" onclick="inputValidation()" value="Send"/>
                 </form>
             </div>
             <img src="./img/15851.jpg"> 
@@ -91,5 +91,7 @@
         </a>
     </div>
     
+    <!-------------scripts------------->
+    <script src="./js/validation.js"></script>
 </body>
 </html>
